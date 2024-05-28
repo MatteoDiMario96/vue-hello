@@ -10,13 +10,14 @@ createApp({
     },
     methods: {
         supplica (){
-            alert("Mamma mia, sei un programmatore!!")
-            let risultatoSupplica = false;
-            while(!risultatoSupplica){
+            alert("Mamma mia, sono un programmatore!!")
+            alert(".....sono un programmatore ?")
+            let aspettativaSupplica = false;
+            while(!aspettativaSupplica){
             let rispostaUtenteSupplica =  prompt("Dimmi di si, ti prego!");
             rispostaUtenteSupplica = rispostaUtenteSupplica.toLowerCase();
                 if(rispostaUtenteSupplica === "si" || rispostaUtenteSupplica === "yes" || rispostaUtenteSupplica === "certo"){
-                    risultatoSupplica = true;
+                    aspettativaSupplica = true;
                 }else{
                     alert("Guarda che me ne accorgo, fai il bravo o la brava, perfavore!")
                 }
