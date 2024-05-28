@@ -20,15 +20,25 @@
         </section>
 
         <section id="immagine">
-            <img v-bind:src="immagine" alt="">
+            <img @click="supplica" v-bind:src="immaginePrincipale" alt="" >
+            <img v-bind:src="immagineSecondaria" alt="" class="no-display">
         </section>
 
         <section id="input">
-            <label for="change-title">Cambia titolo:</label>           
-            <input type="text" v-model="message">
+            <div class="input">
+                <label for="change-title">Cambia titolo:</label>           
+                <input type="text" v-model="message">
+            </div>
+            <div class="input">
+                <label for="change-url-image">Change the Image:</label>
+                <input type="text" v-model="immaginePrincipale">
+            </div>
+            <div class="input">
+                <label for="for-exampel-change-img">Per Esempio incolla questo:   https://web-savvy-marketing.com/wp-content/uploads/2016/10/Crazy-Website-Developers.jpg</label>
+            </div>
 
-            <label for="change-url-image">Change the Image:</label>
-            <input type="text" v-model="immagine">
+            
+            
         </section>
     </div>
     

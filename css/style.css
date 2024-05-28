@@ -19,6 +19,23 @@ section#immagine{
     width: 70%;
 }
 
+section#input > div {
+    margin-bottom: 1rem;
+}
+
+section#input label {
+    margin-right: .5rem;
+}
+
+
 img{
     width: 100%;
+}
+
+.no-display{
+    display: none;
+}
+
+.display-inline-block{
+    display: inline-block;
 }
