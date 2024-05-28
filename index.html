@@ -22,6 +22,14 @@
         <section id="immagine">
             <img v-bind:src="immagine" alt="">
         </section>
+
+        <section id="input">
+            <label for="change-title">Cambia titolo:</label>           
+            <input type="text" v-model="message">
+
+            <label for="change-url-image">Change the Image:</label>
+            <input type="text" v-model="immagine">
+        </section>
     </div>
     
     <script src="./js/script.js"></script>
