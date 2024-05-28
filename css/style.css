@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+section{
+    margin-top: 3rem;
+}
+
+div#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#immagine{
+    width: 70%;
+}
+
+img{
+    width: 100%;
+}

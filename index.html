@@ -13,11 +13,15 @@
 </head>
 <body>
     <div id="app">
-        <h1>
-            {{ message }}
-        </h1>
+        <section id="titolo">
+            <h1>
+                {{ message }}
+            </h1>
+        </section>
 
-        <img v-bind:src="immagine" alt="">
+        <section id="immagine">
+            <img v-bind:src="immagine" alt="">
+        </section>
     </div>
     
     <script src="./js/script.js"></script>
